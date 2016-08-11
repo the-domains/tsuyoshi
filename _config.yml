@@ -1,8 +1,17 @@
-layout_spectrum: 0.8095196
-typography_spectrum: 0.1149711
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.7800486
-  lightness: 0.1417098
   brandStrength: 0.270079
   rhythmicContrast: 0.9814246
   brandColors:
@@ -11,4 +20,7 @@ color:
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
+  lightness: 0.1417098
+typography_spectrum: 0.7599356
+layout_spectrum: 0.4731471
 name: Tsuyoshi
